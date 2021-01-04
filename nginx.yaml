@@ -27,11 +27,13 @@ metadata:
     app: web
   name: mynginx-momo
 spec:
+  type: NodePort
   ports:
-  #--- nodePort: 32000
     port: 80
     protocol: TCP
     targetPort: 80
   selector:
     app: web
-  type: NodePort
+
+  
+    #--- nodePort: 32000
