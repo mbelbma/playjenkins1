@@ -28,7 +28,7 @@ metadata:
   name: mynginx-momo
 spec:
   ports:
-  - nodePort: 38000
+  - nodePort: 32000
     port: 80
     protocol: TCP
     targetPort: 80
